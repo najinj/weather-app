@@ -1,0 +1,22 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.temp-interval{
+    display: flex;
+    justify-content: space-around;
+}
+.temp-max{
+    
+}
+
+.temp-min{
+    color:grey;
+}
