@@ -2,11 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
 }
 
 .weather-card{
     display: inline-flex;
     flex-direction: column;
+    
 }
 
 .temp-interval{
@@ -20,3 +22,8 @@
 .temp-min{
     color:grey;
 }
+
+.weather-card:hover{
+    background-color:#dddfe2;
+ }
+ 
