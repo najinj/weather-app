@@ -25,7 +25,7 @@ const WeatherCard = ({day,iconCode,maxTemp,minTemp}) =>{
 const getDayName = (unixDate,mode) =>
 {
     var date = new Date(unixDate * 1000);
-    return date.toLocaleDateString(navigator.language, { weekday: mode });        
+    return date.toLocaleDateString("en", { weekday: mode });        
 }
 
 export default WeatherCard;
